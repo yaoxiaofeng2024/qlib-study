@@ -1,0 +1,27 @@
+# ---- Python ----
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+
+# ---- 第三方源码（用 scripts/bootstrap.sh 恢复，不入库）----
+vendor/
+
+# ---- 数据（永不入库，只入库转换脚本与指纹）----
+data/raw/
+data/qlib_cn/
+*.bin
+*.zip
+
+# ---- 实验产物（可重建，不入库）----
+mlruns/
+reports/*
+!reports/.gitkeep
+
+# ---- qlib 测试 lstrip bug 产生的假目录 ----
+Users/
+
+# ---- 编辑器 ----
+.idea/
+.vscode/
