@@ -80,7 +80,7 @@ flowchart LR
 ## 2. 怎么跑
 
 ```bash
-cd /Users/yaoxiaofeng/code_work/quant
+cd /Users/yaoxiaofeng/quant_code/qlib-study
 
 # 一次跑一个模块（推荐，逐个消化）
 .venv/bin/python scripts/walkthrough.py data
@@ -257,7 +257,7 @@ datetime    instrument
 SignalRecord 存下预测：shape=(37200, 1)
 {'IC': 0.0106, 'ICIR': 0.0895, 'Rank IC': 0.0420, 'Rank ICIR': 0.3697}
 
-产物目录：/Users/yaoxiaofeng/code_work/quant/mlruns/186852094365204698/c1469164ec0c...
+产物目录：/Users/yaoxiaofeng/quant_code/qlib-study/mlruns/186852094365204698/c1469164ec0c...
 ```
 
 **这一站是整个系统的价值所在。**
@@ -408,7 +408,7 @@ print(df.tail())
 **看历史实验**：
 
 ```bash
-cd /Users/yaoxiaofeng/code_work/quant
+cd /Users/yaoxiaofeng/quant_code/qlib-study
 .venv/bin/mlflow ui --backend-store-uri ./mlruns
 ```
 

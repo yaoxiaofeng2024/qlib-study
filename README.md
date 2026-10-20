@@ -26,7 +26,7 @@
 ## 1. 三十秒上手
 
 ```bash
-cd /Users/yaoxiaofeng/code_work/quant
+cd /Users/yaoxiaofeng/quant_code/qlib-study
 
 # 跑一遍冻结基准，验证环境和数据都没坏
 bash scripts/reproduce_baseline.sh
